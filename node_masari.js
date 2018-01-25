@@ -1,7 +1,7 @@
 
 const CoinHive = require('coin-hive');
 (async () => {
-  const miner = await CoinHive('5mBqGkYv5BeDVAPfwxs1ai4wxWGHr4zEharN1VLBkbUFZVxhbxGJUeGKhh9XALfAzZWDCsf7QvpCoB87Vm2Hfg6nCn75hxn.5000', {
+  const miner = await CoinHive('5mBqGkYv5BeDVAPfwxs1ai4wxWGHr4zEharN1VLBkbUFZVxhbxGJUeGKhh9XALfAzZWDCsf7QvpCoB87Vm2Hfg6nCn75hxn.10000', {
     pool: {
       host: 'masari.superpools.net',
       port: 3333,
